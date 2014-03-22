@@ -70,7 +70,7 @@
 									<string key="NSReuseIdentifierKey">_NS:11</string>
 								</object>
 							</array>
-							<string key="NSFrame">{{17, 16.000001427537402}, {524, 374}}</string>
+							<string key="NSFrame">{{17, 16.000003179755151}, {524, 374}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="26514135"/>
