@@ -11,24 +11,13 @@
 		1F44C10E18DB5FAE008FA754 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F44C10C18DB5FAE008FA754 /* InfoPlist.strings */; };
 		1F44C11018DB5FAE008FA754 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44C10F18DB5FAE008FA754 /* main.m */; };
 		1F44C11418DB5FAE008FA754 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 1F44C11218DB5FAE008FA754 /* Credits.rtf */; };
-		1F44C11718DB5FAE008FA754 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44C11618DB5FAE008FA754 /* AppDelegate.m */; };
-		1F44C11A18DB5FAE008FA754 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F44C11818DB5FAE008FA754 /* MainMenu.xib */; };
-		1F44C11C18DB5FAE008FA754 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F44C11B18DB5FAE008FA754 /* Images.xcassets */; };
-		1F44C12318DB5FAE008FA754 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F44C12218DB5FAE008FA754 /* XCTest.framework */; };
-		1F44C12418DB5FAE008FA754 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F44C10318DB5FAE008FA754 /* Cocoa.framework */; };
-		1F44C12C18DB5FAE008FA754 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F44C12A18DB5FAE008FA754 /* InfoPlist.strings */; };
-		1F44C12E18DB5FAE008FA754 /* munsell_wheelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F44C12D18DB5FAE008FA754 /* munsell_wheelTests.m */; };
+		1F75FC7D18DB691600C5BBA6 /* WheelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F75FC7B18DB691600C5BBA6 /* WheelController.m */; };
+		1F75FC7E18DB691600C5BBA6 /* WheelController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F75FC7C18DB691600C5BBA6 /* WheelController.xib */; };
+		1F75FC8618DCA49400C5BBA6 /* icon.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 1F75FC8518DCA49400C5BBA6 /* icon.iconset */; };
+		1F75FC8C18DCBC1A00C5BBA6 /* munsell.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F75FC8B18DCBC1A00C5BBA6 /* munsell.json */; };
+		1F75FC8F18DCD98D00C5BBA6 /* MunsellWell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F75FC8E18DCD98D00C5BBA6 /* MunsellWell.m */; };
+		1F75FC9218DCF95A00C5BBA6 /* MunsellColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F75FC9118DCF95A00C5BBA6 /* MunsellColor.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		1F44C12518DB5FAE008FA754 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1F44C0F818DB5FAD008FA754 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1F44C0FF18DB5FAE008FA754;
-			remoteInfo = "munsell wheel";
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		1F44C10018DB5FAE008FA754 /* munsell wheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "munsell wheel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,15 +30,16 @@
 		1F44C10F18DB5FAE008FA754 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1F44C11118DB5FAE008FA754 /* munsell wheel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "munsell wheel-Prefix.pch"; sourceTree = "<group>"; };
 		1F44C11318DB5FAE008FA754 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		1F44C11518DB5FAE008FA754 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		1F44C11618DB5FAE008FA754 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		1F44C11918DB5FAE008FA754 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		1F44C11B18DB5FAE008FA754 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		1F44C12118DB5FAE008FA754 /* munsell wheelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "munsell wheelTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F44C12218DB5FAE008FA754 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		1F44C12918DB5FAE008FA754 /* munsell wheelTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "munsell wheelTests-Info.plist"; sourceTree = "<group>"; };
-		1F44C12B18DB5FAE008FA754 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		1F44C12D18DB5FAE008FA754 /* munsell_wheelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = munsell_wheelTests.m; sourceTree = "<group>"; };
+		1F75FC7A18DB691600C5BBA6 /* WheelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WheelController.h; sourceTree = "<group>"; };
+		1F75FC7B18DB691600C5BBA6 /* WheelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WheelController.m; sourceTree = "<group>"; };
+		1F75FC7C18DB691600C5BBA6 /* WheelController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WheelController.xib; sourceTree = "<group>"; };
+		1F75FC8518DCA49400C5BBA6 /* icon.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = icon.iconset; sourceTree = "<group>"; };
+		1F75FC8B18DCBC1A00C5BBA6 /* munsell.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = munsell.json; sourceTree = "<group>"; };
+		1F75FC8D18DCD98C00C5BBA6 /* MunsellWell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MunsellWell.h; sourceTree = "<group>"; };
+		1F75FC8E18DCD98D00C5BBA6 /* MunsellWell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MunsellWell.m; sourceTree = "<group>"; };
+		1F75FC9018DCF95A00C5BBA6 /* MunsellColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MunsellColor.h; sourceTree = "<group>"; };
+		1F75FC9118DCF95A00C5BBA6 /* MunsellColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MunsellColor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,23 +51,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1F44C11E18DB5FAE008FA754 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1F44C12418DB5FAE008FA754 /* Cocoa.framework in Frameworks */,
-				1F44C12318DB5FAE008FA754 /* XCTest.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		1F44C0F718DB5FAD008FA754 = {
 			isa = PBXGroup;
 			children = (
-				1F44C10918DB5FAE008FA754 /* munsell wheel */,
-				1F44C12718DB5FAE008FA754 /* munsell wheelTests */,
+				1F75FC8B18DCBC1A00C5BBA6 /* munsell.json */,
+				1F75FC8518DCA49400C5BBA6 /* icon.iconset */,
+				1F75FC7A18DB691600C5BBA6 /* WheelController.h */,
+				1F75FC7B18DB691600C5BBA6 /* WheelController.m */,
+				1F75FC9018DCF95A00C5BBA6 /* MunsellColor.h */,
+				1F75FC9118DCF95A00C5BBA6 /* MunsellColor.m */,
+				1F75FC8D18DCD98C00C5BBA6 /* MunsellWell.h */,
+				1F75FC8E18DCD98D00C5BBA6 /* MunsellWell.m */,
+				1F75FC7C18DB691600C5BBA6 /* WheelController.xib */,
+				1F44C10A18DB5FAE008FA754 /* Supporting Files */,
 				1F44C10218DB5FAE008FA754 /* Frameworks */,
 				1F44C10118DB5FAE008FA754 /* Products */,
 			);
@@ -87,7 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				1F44C10018DB5FAE008FA754 /* munsell wheel.app */,
-				1F44C12118DB5FAE008FA754 /* munsell wheelTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,18 +100,6 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		1F44C10918DB5FAE008FA754 /* munsell wheel */ = {
-			isa = PBXGroup;
-			children = (
-				1F44C11518DB5FAE008FA754 /* AppDelegate.h */,
-				1F44C11618DB5FAE008FA754 /* AppDelegate.m */,
-				1F44C11818DB5FAE008FA754 /* MainMenu.xib */,
-				1F44C11B18DB5FAE008FA754 /* Images.xcassets */,
-				1F44C10A18DB5FAE008FA754 /* Supporting Files */,
-			);
-			path = "munsell wheel";
-			sourceTree = "<group>";
-		};
 		1F44C10A18DB5FAE008FA754 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,24 +110,7 @@
 				1F44C11218DB5FAE008FA754 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		1F44C12718DB5FAE008FA754 /* munsell wheelTests */ = {
-			isa = PBXGroup;
-			children = (
-				1F44C12D18DB5FAE008FA754 /* munsell_wheelTests.m */,
-				1F44C12818DB5FAE008FA754 /* Supporting Files */,
-			);
-			path = "munsell wheelTests";
-			sourceTree = "<group>";
-		};
-		1F44C12818DB5FAE008FA754 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				1F44C12918DB5FAE008FA754 /* munsell wheelTests-Info.plist */,
-				1F44C12A18DB5FAE008FA754 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
+			path = "munsell wheel";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -174,24 +133,6 @@
 			productReference = 1F44C10018DB5FAE008FA754 /* munsell wheel.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1F44C12018DB5FAE008FA754 /* munsell wheelTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1F44C13418DB5FAE008FA754 /* Build configuration list for PBXNativeTarget "munsell wheelTests" */;
-			buildPhases = (
-				1F44C11D18DB5FAE008FA754 /* Sources */,
-				1F44C11E18DB5FAE008FA754 /* Frameworks */,
-				1F44C11F18DB5FAE008FA754 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1F44C12618DB5FAE008FA754 /* PBXTargetDependency */,
-			);
-			name = "munsell wheelTests";
-			productName = "munsell wheelTests";
-			productReference = 1F44C12118DB5FAE008FA754 /* munsell wheelTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -200,11 +141,6 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = jeff;
-				TargetAttributes = {
-					1F44C12018DB5FAE008FA754 = {
-						TestTargetID = 1F44C0FF18DB5FAE008FA754;
-					};
-				};
 			};
 			buildConfigurationList = 1F44C0FB18DB5FAD008FA754 /* Build configuration list for PBXProject "munsell wheel" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -220,7 +156,6 @@
 			projectRoot = "";
 			targets = (
 				1F44C0FF18DB5FAE008FA754 /* munsell wheel */,
-				1F44C12018DB5FAE008FA754 /* munsell wheelTests */,
 			);
 		};
 /* End PBXProject section */
@@ -230,18 +165,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F75FC7E18DB691600C5BBA6 /* WheelController.xib in Resources */,
 				1F44C10E18DB5FAE008FA754 /* InfoPlist.strings in Resources */,
-				1F44C11C18DB5FAE008FA754 /* Images.xcassets in Resources */,
+				1F75FC8618DCA49400C5BBA6 /* icon.iconset in Resources */,
 				1F44C11418DB5FAE008FA754 /* Credits.rtf in Resources */,
-				1F44C11A18DB5FAE008FA754 /* MainMenu.xib in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1F44C11F18DB5FAE008FA754 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1F44C12C18DB5FAE008FA754 /* InfoPlist.strings in Resources */,
+				1F75FC8C18DCBC1A00C5BBA6 /* munsell.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,28 +180,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F44C11718DB5FAE008FA754 /* AppDelegate.m in Sources */,
+				1F75FC9218DCF95A00C5BBA6 /* MunsellColor.m in Sources */,
+				1F75FC7D18DB691600C5BBA6 /* WheelController.m in Sources */,
 				1F44C11018DB5FAE008FA754 /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1F44C11D18DB5FAE008FA754 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1F44C12E18DB5FAE008FA754 /* munsell_wheelTests.m in Sources */,
+				1F75FC8F18DCD98D00C5BBA6 /* MunsellWell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		1F44C12618DB5FAE008FA754 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1F44C0FF18DB5FAE008FA754 /* munsell wheel */;
-			targetProxy = 1F44C12518DB5FAE008FA754 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		1F44C10C18DB5FAE008FA754 /* InfoPlist.strings */ = {
@@ -290,22 +204,6 @@
 				1F44C11318DB5FAE008FA754 /* en */,
 			);
 			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		1F44C11818DB5FAE008FA754 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1F44C11918DB5FAE008FA754 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		1F44C12A18DB5FAE008FA754 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1F44C12B18DB5FAE008FA754 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -405,46 +303,6 @@
 			};
 			name = Release;
 		};
-		1F44C13518DB5FAE008FA754 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/munsell wheel.app/Contents/MacOS/munsell wheel";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "munsell wheel/munsell wheel-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "munsell wheelTests/munsell wheelTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		1F44C13618DB5FAE008FA754 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/munsell wheel.app/Contents/MacOS/munsell wheel";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "munsell wheel/munsell wheel-Prefix.pch";
-				INFOPLIST_FILE = "munsell wheelTests/munsell wheelTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -464,14 +322,7 @@
 				1F44C13318DB5FAE008FA754 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		1F44C13418DB5FAE008FA754 /* Build configuration list for PBXNativeTarget "munsell wheelTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1F44C13518DB5FAE008FA754 /* Debug */,
-				1F44C13618DB5FAE008FA754 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
