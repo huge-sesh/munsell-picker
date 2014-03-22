@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1F44C0FF18DB5FAE008FA754"
                BuildableName = "munsell wheel.app"
-               BlueprintName = "munsell wheel"
-               ReferencedContainer = "container:munsell wheel.xcodeproj">
+               BlueprintName = "munsell picker"
+               ReferencedContainer = "container:munsell picker.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "1F44C12018DB5FAE008FA754"
                BuildableName = "munsell wheelTests.xctest"
                BlueprintName = "munsell wheelTests"
-               ReferencedContainer = "container:munsell wheel.xcodeproj">
+               ReferencedContainer = "container:munsell picker.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1F44C0FF18DB5FAE008FA754"
             BuildableName = "munsell wheel.app"
-            BlueprintName = "munsell wheel"
-            ReferencedContainer = "container:munsell wheel.xcodeproj">
+            BlueprintName = "munsell picker"
+            ReferencedContainer = "container:munsell picker.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1F44C0FF18DB5FAE008FA754"
             BuildableName = "munsell wheel.app"
-            BlueprintName = "munsell wheel"
-            ReferencedContainer = "container:munsell wheel.xcodeproj">
+            BlueprintName = "munsell picker"
+            ReferencedContainer = "container:munsell picker.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1F44C0FF18DB5FAE008FA754"
             BuildableName = "munsell wheel.app"
-            BlueprintName = "munsell wheel"
-            ReferencedContainer = "container:munsell wheel.xcodeproj">
+            BlueprintName = "munsell picker"
+            ReferencedContainer = "container:munsell picker.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

@@ -20,12 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1F44C10018DB5FAE008FA754 /* munsell wheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "munsell wheel.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F44C10018DB5FAE008FA754 /* munsell picker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "munsell picker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F44C10318DB5FAE008FA754 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		1F44C10618DB5FAE008FA754 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		1F44C10718DB5FAE008FA754 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		1F44C10818DB5FAE008FA754 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		1F44C10B18DB5FAE008FA754 /* munsell wheel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "munsell wheel-Info.plist"; sourceTree = "<group>"; };
+		1F44C10B18DB5FAE008FA754 /* munsell picker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "munsell picker-Info.plist"; sourceTree = "<group>"; };
 		1F44C10D18DB5FAE008FA754 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1F44C10F18DB5FAE008FA754 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1F44C11118DB5FAE008FA754 /* munsell wheel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "munsell wheel-Prefix.pch"; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 		1F44C10118DB5FAE008FA754 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1F44C10018DB5FAE008FA754 /* munsell wheel.app */,
+				1F44C10018DB5FAE008FA754 /* munsell picker.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -103,7 +103,7 @@
 		1F44C10A18DB5FAE008FA754 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				1F44C10B18DB5FAE008FA754 /* munsell wheel-Info.plist */,
+				1F44C10B18DB5FAE008FA754 /* munsell picker-Info.plist */,
 				1F44C10C18DB5FAE008FA754 /* InfoPlist.strings */,
 				1F44C10F18DB5FAE008FA754 /* main.m */,
 				1F44C11118DB5FAE008FA754 /* munsell wheel-Prefix.pch */,
@@ -116,9 +116,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1F44C0FF18DB5FAE008FA754 /* munsell wheel */ = {
+		1F44C0FF18DB5FAE008FA754 /* munsell picker */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F44C13118DB5FAE008FA754 /* Build configuration list for PBXNativeTarget "munsell wheel" */;
+			buildConfigurationList = 1F44C13118DB5FAE008FA754 /* Build configuration list for PBXNativeTarget "munsell picker" */;
 			buildPhases = (
 				1F44C0FC18DB5FAE008FA754 /* Sources */,
 				1F44C0FD18DB5FAE008FA754 /* Frameworks */,
@@ -128,9 +128,9 @@
 			);
 			dependencies = (
 			);
-			name = "munsell wheel";
+			name = "munsell picker";
 			productName = "munsell wheel";
-			productReference = 1F44C10018DB5FAE008FA754 /* munsell wheel.app */;
+			productReference = 1F44C10018DB5FAE008FA754 /* munsell picker.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -142,7 +142,7 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = jeff;
 			};
-			buildConfigurationList = 1F44C0FB18DB5FAD008FA754 /* Build configuration list for PBXProject "munsell wheel" */;
+			buildConfigurationList = 1F44C0FB18DB5FAD008FA754 /* Build configuration list for PBXProject "munsell picker" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -155,7 +155,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1F44C0FF18DB5FAE008FA754 /* munsell wheel */,
+				1F44C0FF18DB5FAE008FA754 /* munsell picker */,
 			);
 		};
 /* End PBXProject section */
@@ -283,9 +283,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "munsell wheel/munsell wheel-Prefix.pch";
-				INFOPLIST_FILE = "munsell wheel/munsell wheel-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "munsell wheel/munsell picker-Prefix.pch";
+				INFOPLIST_FILE = "munsell wheel/munsell picker-Info.plist";
+				PRODUCT_NAME = "munsell picker";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -296,9 +296,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "munsell wheel/munsell wheel-Prefix.pch";
-				INFOPLIST_FILE = "munsell wheel/munsell wheel-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "munsell wheel/munsell picker-Prefix.pch";
+				INFOPLIST_FILE = "munsell wheel/munsell picker-Info.plist";
+				PRODUCT_NAME = "munsell picker";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -306,7 +306,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1F44C0FB18DB5FAD008FA754 /* Build configuration list for PBXProject "munsell wheel" */ = {
+		1F44C0FB18DB5FAD008FA754 /* Build configuration list for PBXProject "munsell picker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F44C12F18DB5FAE008FA754 /* Debug */,
@@ -315,7 +315,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1F44C13118DB5FAE008FA754 /* Build configuration list for PBXNativeTarget "munsell wheel" */ = {
+		1F44C13118DB5FAE008FA754 /* Build configuration list for PBXNativeTarget "munsell picker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F44C13218DB5FAE008FA754 /* Debug */,

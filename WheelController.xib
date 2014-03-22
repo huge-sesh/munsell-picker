@@ -45,7 +45,7 @@
 				<int key="NSWindowBacking">2</int>
 				<string key="NSWindowRect">{{196, 240}, {700, 570}}</string>
 				<int key="NSWTFlags">1618477056</int>
-				<string key="NSWindowTitle">munsell colors</string>
+				<string key="NSWindowTitle">munsell picker</string>
 				<string key="NSWindowClass">NSWindow</string>
 				<nil key="NSViewClass"/>
 				<nil key="NSUserInterfaceItemIdentifier"/>
@@ -70,7 +70,7 @@
 									<string key="NSReuseIdentifierKey">_NS:11</string>
 								</object>
 							</array>
-							<string key="NSFrame">{{17, 16.000000579937058}, {524, 374}}</string>
+							<string key="NSFrame">{{17, 16.000001427537402}, {524, 374}}</string>
 							<reference key="NSSuperview" ref="1006"/>
 							<reference key="NSWindow"/>
 							<reference key="NSNextKeyView" ref="26514135"/>
@@ -298,6 +298,7 @@
 											<string key="NSFrame">{{16, 12}, {106, 18}}</string>
 											<reference key="NSSuperview" ref="52157786"/>
 											<reference key="NSWindow"/>
+											<reference key="NSNextKeyView"/>
 											<string key="NSReuseIdentifierKey">_NS:9</string>
 											<bool key="NSEnabled">YES</bool>
 											<object class="NSButtonCell" key="NSCell" id="68662924">
@@ -377,7 +378,7 @@
 				<array class="NSMutableArray" key="NSMenuItems">
 					<object class="NSMenuItem" id="164735995">
 						<reference key="NSMenu" ref="214225819"/>
-						<string key="NSTitle">munsell wheel</string>
+						<string key="NSTitle">munsell picker</string>
 						<string key="NSKeyEquiv"/>
 						<int key="NSKeyEquivModMask">1048576</int>
 						<int key="NSMnemonicLoc">2147483647</int>
@@ -392,11 +393,11 @@
 						<string key="NSAction">submenuAction:</string>
 						<reference key="NSTarget" ref="139386762"/>
 						<object class="NSMenu" key="NSSubmenu" id="139386762">
-							<string key="NSTitle">munsell wheel</string>
+							<string key="NSTitle">munsell picker</string>
 							<array class="NSMutableArray" key="NSMenuItems">
 								<object class="NSMenuItem" id="267878399">
 									<reference key="NSMenu" ref="139386762"/>
-									<string key="NSTitle">Quit munsell wheel</string>
+									<string key="NSTitle">Quit munsell picker</string>
 									<string key="NSKeyEquiv">q</string>
 									<int key="NSKeyEquivModMask">1048576</int>
 									<int key="NSMnemonicLoc">2147483647</int>
